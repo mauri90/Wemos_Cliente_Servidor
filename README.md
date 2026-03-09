@@ -38,7 +38,7 @@ Dispositivo eléctrico
 ## Hardware utilizado
 
 * 2 × Wemos D1 Mini (ESP8266)
-* Módulo relé
+* 2 x Módulo relé
 * Fuente de alimentación 5V
 * Conexión WiFi
 
