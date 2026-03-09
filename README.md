@@ -38,7 +38,7 @@ Dispositivo eléctrico
 ## Hardware utilizado
 
 * 2 × Wemos D1 Mini (ESP8266)
-* 2 x Módulo relé
+* 2 × Módulo relé
 * Fuente de alimentación 5V
 * Conexión WiFi
 
@@ -75,18 +75,6 @@ Dispositivo eléctrico
     * Configurar red WiFi
 
 3. El sistema también puede funcionar automáticamente según los horarios configurados.
-
----
-
-## Fotos del proyecto
-
-Agregar aquí fotos del circuito y del sistema funcionando.
-
----
-
-## Video demostración
-
-Agregar aquí el link del video mostrando el funcionamiento del proyecto.
 
 ---
 
