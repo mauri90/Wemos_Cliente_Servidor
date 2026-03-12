@@ -32,13 +32,13 @@ bool horarioGuardado = false;  // Variable para mostrar el mensaje
 
 // Guardar y leer de EEPROM
 void guardarHorarioEEPROM() {
-  if (horaInicio1 != EEPROM.read(0) || minutoInicio1 != EEPROM.read(1) || horaFin1 != EEPROM.read(2) || minutoFin1 != EEPROM.read(3))
+  if (horaInicio1 != EEPROM.read(0) || minutoInicio1 != EEPROM.read(1) || horaFin1 != EEPROM.read(2) || minutoFin1 != EEPROM.read(3)){
     EEPROM.write(0, horaInicio1);
     EEPROM.write(1, minutoInicio1);
     EEPROM.write(2, horaFin1);
     EEPROM.write(3, minutoFin1);
-
     EEPROM.commit();
+  }
 }
 
 void cargarHorarioEEPROM() {
@@ -194,6 +194,7 @@ void setup() {
   setupWiFi();
   setupOTA();
   timeClient.begin();
+  timeClient.update();
   server.begin();
 
   // Configurar rutas
