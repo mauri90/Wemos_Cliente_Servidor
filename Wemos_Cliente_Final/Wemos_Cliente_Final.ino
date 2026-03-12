@@ -142,7 +142,7 @@ void mostrarFormularioWiFi() {
   html += "Contraseña: <input type='password' name='pass'><br>";
   html += "<input type='submit' value='Guardar y conectar'><br>";
   server.send(200, "text/html", html);
-};
+}
 
 void guardarDatosWiFi() {
   String ssid = server.arg("ssid");
